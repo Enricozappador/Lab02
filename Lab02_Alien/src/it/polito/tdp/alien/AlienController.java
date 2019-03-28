@@ -48,7 +48,10 @@ public class AlienController {
     
     
     @FXML
-    void doReset(ActionEvent event) {
+    void doReset(ActionEvent event) { 
+    	this.txtResult.clear();
+    	this.txtWord.clear();
+    
 
     }
     
